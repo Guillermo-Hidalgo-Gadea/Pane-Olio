@@ -1,0 +1,41 @@
+<html>
+    <head>  
+        <title> 
+            Pane & Olio 
+        </title>
+    <style>
+        page-container {
+            position: relative;
+            min-height: 100vh;
+        }
+        footer {
+            text-align: center;
+            padding: 0px;
+            background-color: lightgrey;
+            color: black;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        body{
+            background-image: url("{{ url_for('static', filename='background.jpg') }}");
+            background-attachment: fixed;
+            padding: 0;
+            margin: 0;  
+        }
+          
+    </style>
+    </head>
+    <body>
+        <center><h1 style="color:white;font-size:300%;padding: 40px">Welcome, may I read you our daily specials?</h1>
+        <form method="POST" action="/">
+            <input style="font-size:100%;font-weight: bold" type="submit" value="Today's Special" name="Today's Special"/>
+            <input style="font-size:100%;font-weight: bold" type="submit" value="In Season" name="In Season"/>
+            <input style="font-size:100%;font-weight: bold" type="submit" value="See Cookbook" name="See Cookbook"/>
+            <input style="font-size:100%;font-weight: bold" type="submit" value="About" name="About"/>
+        </form></center>
+        <footer>
+            <p> &copy 2021 Los Knoblauchos<br>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+    <head>  
+        <title> 
+            Pane & Olio 
+        </title>
+    <style>
+        page-container {
+            position: relative;
+            min-height: 100vh;
+        }
+        footer {
+            text-align: center;
+            padding: 0px;
+            background-color: lightgrey;
+            color: black;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        body{
+            background-image: "";
+            background-attachment: fixed;
+            padding: 0;
+            padding-bottom: 50px;
+            margin: 0;  
+        }
+        .responsive {
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
+    </head>
+    <body>
+        <center><h1 style="color:black;font-size:300%;padding: 40px">Cookbook</h1>
+            <form method="POST">
+                <input type="submit" value="Back" name="Back"/>
+            </form>
+            {% for special in specials %}
+            <div style="margin: 2em 15em 2em 15em;padding: 2em 2em 2em 2em;border-width: 1px; border-color: darkgray; border-style:solid;">
+                <img src="{{ special['photo'] }}" style="float:right" class = "responsive"/>
+                <h1>{{ special['name'] }}</h1>
+                <p>{{ ", ".join(special['tag']) }}</p>
+                <p>{{ special['effort'] }}</p> 
+            </div>
+            {% endfor %}
+
+
+       </center>
+        <footer>
+            <p> &copy 2021 Los Knoblauchos<br>
+        </footer>
+    </body>
+</html>

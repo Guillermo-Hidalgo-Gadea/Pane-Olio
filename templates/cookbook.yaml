@@ -1,0 +1,202 @@
+- name: 'Arroz al horno'
+  tag: [spanish, oven, rice]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [rice, potatoes, tomato, broth, salsiccia]
+
+- name: 'Minestrone'
+  tag: [italian, soup]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: 'onions and pancetta or salsiccia, add garlic, then carrots, potato and and celery all in tiny cubes, then beans and zucchini in cubes. Steam for 15 minutes. Add tomato, tomato paste, basil, laurel, parmesan rind, a liter of broth. Cook for an hour, then add pasta.'
+  ingredients: [onions, pancetta or salsiccia, garlic, beans, pasta]
+
+- name: 'Tortilla de patatas'
+  tag: [spanish, vegetarian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [potatoes, eggs, garlic]
+
+- name: 'Tortilla de judias blancas'
+  tag: [spanish, vegetarian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [beans, eggs]
+
+- name: 'Botifarra amb seques'
+  tag: [catalan]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [salitxa, white beans, garlic]
+
+- name: 'Pasta e fagoli'
+  tag: [italian, vegetarian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: ''
+
+- name: 'Bacalao a bras'
+  tag: [portuguese]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [dried & salted cod, potatos, egg]
+
+- name: 'Parmigiana con insalata'
+  tag: [italian]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [aubergine, tomato, breadcrumbs, salad]
+
+- name: 'Risotto ai funghi'
+  tag: [italian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [rice, parmesan, mushrooms]
+
+- name: 'Fricandó'
+  tag: [catalan]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [tomato, ground almonds, veal escalope]
+
+- name: 'Fricandó - vegan'
+  tag: [catalan, vegan]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [tomato, ground almonds, king oyster mushrooms]
+
+- name: 'Sardelle con aglio'
+  tag: [fish]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [sardines, garlic, olive oil]
+
+- name: 'Broccoli al forno '
+  tag: [vegan, oven, vegatables]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [broccoli, garlic, olive oil]
+
+- name: 'Shakshuka '
+  tag: [vegetarian]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [tomato, eggs]
+
+- name: 'Frittata im Blätterteig'
+  tag: [vegetarian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [eggs, puff pastry, zucchini, mozzarella, herbs]
+
+- name: 'Hummus'
+  tag: [vegan, mediterranean, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [chickpeas, tahini, garlic, olive oil]
+
+- name: 'Hummus with grilled peppers'
+  tag: [vegan, mediterranean, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [chickpeas, tahini, garlic, olive oil, peppers]
+
+- name: 'Bean dip'
+  tag: [vegan, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [white beans, tahini, olive oil, garlic]
+
+- name: 'Baba Ganoush'
+  tag: [vegan, oriental, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [aubergine, tahini, olive oil, garlic]
+
+- name: 'Skordalia'
+  tag: [vegan, mediterranean, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [potatos, olive oil, garlic]
+
+- name: 'Spelt Muffins'
+  tag: [vegan, mediterranean, snack]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [fresh herbs, olive oil, garlic, cherry tomatos]
+
+- name: 'Albondigas veganas'
+  tag: [vegan, spanish]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [black beans, olive oil, garlic, tomatos, walnuts, oats, smoked pepper]
+
+- name: 'Lachs in Blätterteig'
+  tag: [fish]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [salmon, olive oil, garlic, lemon, puff pastry, parsley]
+
+- name: 'Gnocchi gratin'
+  tag: [italian]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [pumpkin, salsiccia, white wine, sage, cherry tomatoes]
+
+- name: 'Kartoffelsalat'
+  tag: [german]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: "Boil potatoes only fork tender so they don't fall apart, always start in cold water so they cook evenly all the way through and not only on the outside, and toss with vinaigrette while hot so it absorbs flavours"
+  ingredients: [potatoes, garlic, olive oil, mustard, lemon, olives, parsley, herbs]
+
+- name: 'Vegetarian Tacos'
+  tag: [mexican, vegetarian]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [taco shells, lentils, cheese, grilled vegetables, tomato, broth]
+
+- name: 'Buñuelos de Bacalao'
+  tag: [spanish, fish]
+  effort: high
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [dried & salted cod]
+
+- name: 'Bruschetta'
+  tag: [italian, snack, oven]
+  effort: low
+  photo: '/static/tomato.jpg'
+  recipe: ''
+  ingredients: [bread, tomato, garlic, olive oil]
+
+- name: 'Ribollita'
+  tag: [italian, soup]
+  effort: medium
+  photo: '/static/tomato.jpg'
+  recipe: 'Make soffrito (maybe with pancetta), add fennel bulb or celery, garlic, salt, pepper, chili flakes until vegetables are tender. Add a little bit of tomato, lots of chopped kale and a glass of white wine and cook for another 7 minutes. Add laurel, a liter of broth, beans and parmigiano rind. Let simmer for half an hour, then add parsley and parmigiano. Drizzled with rosemary garlic lemon zest oil (prepared beforehand). To thicken: stir in an extra cup of blended beans, or stale bread torn into pieces and cooked in the soup.'
+  ingredients: [white beans, kale, garlic, celery]
