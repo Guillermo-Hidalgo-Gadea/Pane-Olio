@@ -43,6 +43,14 @@
                 <p>{{ ", ".join(special['ingredients']) }}</p>
             {% endif %}
         </div>
+        <form method="POST" action="/specials">
+            <input type="checkbox" id="vegetarian" name="vegetarian" value="yes">
+            <label for="vegetarian"> Vegetarian</label><br>
+            <input type="checkbox" id="low" name="low" value="yes">
+            <label for="low"> Low effort</label><br>
+            <input type="checkbox" id="fish" name="fish" value="yes">
+            <label for="fish"> with Fish</label><br><br>
+          </form>
         </center>
         <footer>
             <p> &copy 2021 Los Knoblauchos<br>

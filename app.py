@@ -20,8 +20,6 @@ def index():
     if flask.request.method =='POST':
         if flask.request.form.get("Today's Special", False) =="Today's Special":
             return flask.redirect("specials")
-        if flask.request.form.get("In Season", False) =="In Season":
-            return flask.redirect('https://www.regional-saisonal.de/saisonkalender-gemuese')
         if flask.request.form.get("See Cookbook", False) =="See Cookbook":
             return flask.redirect('/menu/')
         if flask.request.form.get("About", False) =="About":
@@ -36,12 +34,26 @@ def index():
 
 @app.route("/specials/", methods = ['GET','POST'])
 def specials():
-    print(flask.request.method)
+    #print(flask.request.method)
+    # add checkboxes and sort menu_list by tags
     special = menu_list[random.choice(range(len(menu_list)))]
-    image = special['photo']
+
     if flask.request.method =='POST':
         if flask.request.form.get("Next Special", False) == "Next Special":
-            special = menu_list[random.choice(range(len(menu_list)))]
+            if flask.request.form.get("vegetarian", False) == "yes":
+                menu = [dish for dish in menu_list if 'veg' in "".join(dish['tag'])]
+                special = menu[random.choice(range(len(menu)))]
+                return flask.render_template("specials.html", special = special)
+            if flask.request.form.get("low", False) == "yes":
+                menu = [dish for dish in menu_list if 'low' in dish['effort']]
+                special = menu[random.choice(range(len(menu)))]
+                return flask.render_template("specials.html", special = special)
+            if flask.request.form.get("fish", False) == "yes":
+                menu = [dish for dish in menu_list if 'fish' in dish['tag']]
+                special = menu[random.choice(range(len(menu)))]
+                return flask.render_template("specials.html", special = special)
+            else:
+                special = menu_list[random.choice(range(len(menu_list)))]
         if flask.request.form.get("See Cookbook", False) =="See Cookbook":
             return flask.redirect('/menu/')
         if flask.request.form.get("Back", False) == "Back":
